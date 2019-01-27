@@ -1,0 +1,8 @@
+{
+  "name": "flowcorp",
+  "version": "0.0.1",
+  "main": "index.html",
+  "author": "Arthur Falcão <arthurfalcao77@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
