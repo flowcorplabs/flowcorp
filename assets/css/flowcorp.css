@@ -27,9 +27,9 @@ section {
   color: white;
     border: solid;
     border-width: 1px;
-    width: 70%;
+    width: 60%;
     margin: auto;
-    margin-top: 5rem;
+    margin-top: 3rem;
     box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 @media screen and (min-width: 576px) {
