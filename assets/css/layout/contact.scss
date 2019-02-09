@@ -17,4 +17,47 @@
             color: $textColor;
         }
     }
+
+    .button-contact{
+        border: solid;
+        border-color: white;
+        border-width: 2px;
+        border-radius: 14px;
+        color: white;
+    }
+
+    .line{
+        color: white;
+        border: solid;
+        border-width: 1px;
+        width: 60%;
+        margin: auto;
+        margin-top: 3rem;
+        box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+    }
+
+    .email{
+        margin-top: 6rem;
+
+        h4 {
+            color: white;
+        }
+    }
+
+    .whatsapp{
+        margin-top: 2rem;
+
+        a {
+            color: white;
+        }
+    }
+
+    .social-icons{
+        text-align: center;
+        margin-top: 4rem;
+
+        a{
+            color: white;
+        }
+    }
 }
