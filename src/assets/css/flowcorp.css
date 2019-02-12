@@ -1,11 +1,13 @@
 body,
 html {
   width: 100%;
-  height: 100%; }
+  height: 100%;
+}
 
 section {
   padding-top: 3rem;
-  padding-bottom: 3rem; }
+  padding-bottom: 3rem;
+}
 
 #carouselIndex .carousel-item {
   height: 100vh;
@@ -13,63 +15,91 @@ section {
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; }
+  background-size: cover;
+}
 
 .about .card {
   background-color: #60609E;
-  border-radius: 1.5rem; }
-  @media screen and (min-width: 576px) {
-    .about .card {
-      max-width: 19rem; } }
+  border-radius: 1.5rem;
+}
+@media screen and (min-width: 576px) {
+  .about .card {
+    max-width: 19rem;
+  }
+}
 .about .card-header {
   border: none;
-  text-align: center; }
-  .about .card-header h2 {
-    margin-bottom: 0; }
+  text-align: center;
+}
+.about .card-header h2 {
+  margin-bottom: 0;
+}
 .about .card-body {
-  padding-top: .5rem;
+  padding-top: 0.5rem;
   padding-bottom: 2rem;
-  min-height: 18rem; }
+  min-height: 18rem;
+}
 .about .card-text {
-  text-align: justify; }
+  text-align: justify;
+}
 
 .contact {
-  background: linear-gradient(136.67deg, #B6B6E9 31.47%, rgba(64, 64, 122, 0.62) 92.91%); }
-  .contact .title {
-    text-align: center;
-    font-weight: bold;
-    padding-bottom: 1rem; }
-    .contact .title h1 {
-      color: #ffffff;
-      font-size: 2.7em; }
-    .contact .title h4 {
-      color: #40407A; }
-  .contact .button-contact {
-    border: solid;
-    border-color: white;
-    border-width: 2px;
-    border-radius: 14px;
-    color: white; }
-  .contact .line {
-    color: white;
-    border: solid;
-    border-width: 1px;
-    width: 60%;
-    margin: auto;
-    margin-top: 3rem;
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2); }
-  .contact .email {
-    margin-top: 6rem; }
-    .contact .email h4 {
-      color: white; }
-  .contact .whatsapp {
-    margin-top: 2rem; }
-    .contact .whatsapp a {
-      color: white; }
-  .contact .social-icons {
-    text-align: center;
-    margin-top: 4rem; }
-    .contact .social-icons a {
-      color: white; }
+  background: linear-gradient(136.67deg, #B6B6E9 31.47%, rgba(64, 64, 122, 0.62) 92.91%);
+  font-family: Exo;
+}
+.contact .title {
+  text-align: center;
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+.contact .title h1 {
+  color: #ffffff;
+  font-size: 2.7em;
+}
+.contact .title h4 {
+  color: #40407A;
+}
+.contact .button-contact {
+  border: solid;
+  border-color: white;
+  border-width: 2px;
+  border-radius: 14px;
+  color: white;
+}
+.contact .line {
+  color: white;
+  border: solid;
+  border-width: 1px;
+  width: 60%;
+  margin: auto;
+  margin-top: 3rem;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.contact .email {
+  margin-top: 6rem;
+}
+.contact .email h4 {
+  color: white;
+}
+.contact .whatsapp {
+  margin-top: 2rem;
+}
+.contact .whatsapp a {
+  color: white;
+}
+.contact .whatsapp a:hover {
+  color: #dadada;
+  text-decoration: none;
+}
+.contact .social-icons {
+  text-align: center;
+  margin-top: 4rem;
+}
+.contact .social-icons a {
+  color: white;
+}
+.contact .white {
+  color: white;
+}
 
 /*# sourceMappingURL=flowcorp.css.map */
