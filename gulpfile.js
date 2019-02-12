@@ -1,6 +1,8 @@
+'use-strict';
+
 const { src, dest, parallel, watch } = require('gulp');
 const imagemin = require('gulp-imagemin');
-const browserSync = require('browser-sync');
+const browserSync = require('browser-sync').create();
 
 function buildImg() {
 
