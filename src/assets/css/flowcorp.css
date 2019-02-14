@@ -32,7 +32,15 @@ section .text-flow {
   color: #40407a;
   font-family: exo;
   font-weight: bold;
-  font-size: 3.5rem;
+  font-size: 2em;
+}
+section p {
+  font-size: 1.3em;
+  line-height: 1.75rem;
+  margin-bottom: 2rem;
+}
+section .image-logo {
+  width: 15%;
 }
 
 /*# sourceMappingURL=flowcorp.css.map */
