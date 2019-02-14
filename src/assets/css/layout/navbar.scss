@@ -1,7 +1,7 @@
 .navbar {
 
     @include transition;
-    
+
     .navbar-brand {
         display: none;
 
@@ -14,26 +14,26 @@
         margin-right: auto;
         margin-left: auto;
     }
-    
+
     .nav-link {
         color: #ffffff;
         text-transform: uppercase;
-        
+
         &:hover {
-            color: rgba($color: #ffffff, $alpha: .75)
+            color: rgba($color: #ffffff, $alpha: .75);
         }
     }
-    
+
 }
 
 .navbar-flow {
-    
+
     background-color: #ffffff;
-    
+
     .navbar-brand {
         display: block;
     }
-    
+
     .navbar-nav {
         margin-left: auto;
         margin-right: 0;

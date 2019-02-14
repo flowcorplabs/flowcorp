@@ -1,0 +1,52 @@
+.flowteam {
+
+    h1 {
+        text-transform: uppercase;
+        color: $normalColor;
+        font-weight: 700;
+    }
+
+    img {
+        border-radius: 50%;
+        padding: {
+            top: 1rem;
+            bottom: 1rem;
+        }
+    }
+
+    .social {
+        a {
+            color: #ffffff;
+            display: inline-block;
+            font-weight: 500;
+            margin: 0 10px;
+
+            &:hover {
+                color: rgba($color: #ffffff, $alpha: .75);
+            }
+        }
+    }
+
+    .card {
+        border: none;
+        margin-bottom: 3rem;
+
+        .card-title {
+            margin-top: 1rem;
+        }
+
+        .card-text {
+            text-transform: uppercase;
+            color: rgba($color: #ffffff, $alpha: .65)
+        }
+    }
+
+    .card-body {
+        background-image: linear-gradient(to bottom , $normalColor, $lightColor); 
+        border-radius: 1rem;
+        color: #ffffff;
+        text-align: center;
+
+        @include box-shadow;
+    }
+}
