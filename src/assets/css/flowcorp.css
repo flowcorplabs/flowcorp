@@ -6,10 +6,6 @@ html {
 body {
   font-family: "Exo", sans-serif;
   font-weight: 700;
-  background-image: linear-gradient(to bottom, #2c2c54, #40407a);
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 150vh;
 }
 
 section {
@@ -56,6 +52,25 @@ section {
 }
 .navbar-flow .nav-link:hover {
   color: rgba(64, 64, 122, 0.75);
+}
+
+header {
+  background-image: linear-gradient(to bottom, #2c2c54, #706fd3);
+  height: 100vh;
+  padding-top: 8rem;
+}
+header .flow-top {
+  background-image: url(../img/flow-top.svg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header i {
+  color: white;
+}
+header .pt-15 {
+  padding-top: 15rem;
 }
 
 /*# sourceMappingURL=flowcorp.css.map */

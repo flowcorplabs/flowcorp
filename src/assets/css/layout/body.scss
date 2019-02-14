@@ -7,10 +7,6 @@ html {
 body {
     font-family: $font, sans-serif;
     font-weight: 700;
-    background-image: linear-gradient(to bottom, $darkColor, $normalColor);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 150vh;
 }
 
 section {
