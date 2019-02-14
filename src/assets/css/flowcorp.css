@@ -1,0 +1,61 @@
+body,
+html {
+  width: 100%;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  font-weight: 700;
+  background-image: linear-gradient(to bottom, #2c2c54, #40407a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 150vh;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.navbar {
+  -webkit-transition: all 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -moz-transition: all 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  -o-transition: all 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
+  transition: all 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+.navbar .navbar-brand {
+  display: none;
+}
+.navbar .navbar-brand img {
+  width: 75%;
+}
+.navbar .navbar-nav {
+  margin-right: auto;
+  margin-left: auto;
+}
+.navbar .nav-link {
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.navbar .nav-link:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.navbar-flow {
+  background-color: #ffffff;
+}
+.navbar-flow .navbar-brand {
+  display: block;
+}
+.navbar-flow .navbar-nav {
+  margin-left: auto;
+  margin-right: 0;
+}
+.navbar-flow .nav-link {
+  color: #40407a;
+}
+.navbar-flow .nav-link:hover {
+  color: rgba(64, 64, 122, 0.75);
+}
+
+/*# sourceMappingURL=flowcorp.css.map */

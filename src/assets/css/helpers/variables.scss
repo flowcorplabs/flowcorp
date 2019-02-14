@@ -1,6 +1,13 @@
 // Cores
-$primaryColor: #60609E;
-$textColor: #40407A;
+$darkColor: #2c2c54;
+$normalColor: #40407a;
+$lightColor: #706fd3;
+
+// Fontes
+$font: 'Exo';
+
+// Transições
+$transition: all 600ms cubic-bezier(0.250, 0.100, 0.250, 1.000);
 
 // Extra small devices
 $xs: 'screen and (max-width: 575.9px)';
