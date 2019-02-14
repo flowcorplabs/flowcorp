@@ -4,3 +4,9 @@
     -o-transition: $transition;
     transition: $transition;
 }
+
+@mixin box-shadow {
+    -webkit-box-shadow: $boxShadow;
+    -moz-box-shadow: $boxShadow;
+    box-shadow: $boxShadow;
+}

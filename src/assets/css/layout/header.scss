@@ -1,22 +1,24 @@
-header{
-    
-    background-image: linear-gradient(to bottom , #2c2c54, #706fd3); 
-    height: 100vh; 
+header {
+
+    background-image: linear-gradient(to bottom, $darkColor, $lightColor);
+    height: 100vh;
     padding-top: 8rem;
 
-    .flow-top{
-        background-image: url(../img/flow-top.svg);
+    .flow-top {
         height: 100%;
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+        background: {
+            image: url('../img/flow-top.svg');
+            repeat: no-repeat;
+            size: cover;
+            position: center;
+        }
     }
 
-    i{
+    i {
         color: white;
     }
 
-    .pt-15{
+    .pt-15 {
         padding-top: 15rem;
     }
 }

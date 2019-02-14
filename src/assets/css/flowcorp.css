@@ -1,6 +1,7 @@
 body,
 html {
   width: 100%;
+  height: 100%;
 }
 
 body {
@@ -60,8 +61,8 @@ header {
   padding-top: 8rem;
 }
 header .flow-top {
-  background-image: url(../img/flow-top.svg);
   height: 100%;
+  background-image: url("../img/flow-top.svg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -71,6 +72,46 @@ header i {
 }
 header .pt-15 {
   padding-top: 15rem;
+}
+
+.flowteam h1 {
+  text-transform: uppercase;
+  color: #40407a;
+  font-weight: 700;
+}
+.flowteam img {
+  border-radius: 50%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.flowteam .social a {
+  color: #ffffff;
+  display: inline-block;
+  font-weight: 500;
+  margin: 0 10px;
+}
+.flowteam .social a:hover {
+  color: rgba(255, 255, 255, 0.75);
+}
+.flowteam .card {
+  border: none;
+  margin-bottom: 3rem;
+}
+.flowteam .card .card-title {
+  margin-top: 1rem;
+}
+.flowteam .card .card-text {
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.65);
+}
+.flowteam .card-body {
+  background-image: linear-gradient(to bottom, #40407a, #706fd3);
+  border-radius: 1rem;
+  color: #ffffff;
+  text-align: center;
+  -webkit-box-shadow: 6px 5px 13px 2px rgba(50, 50, 50, 0.59);
+  -moz-box-shadow: 6px 5px 13px 2px rgba(50, 50, 50, 0.59);
+  box-shadow: 6px 5px 13px 2px rgba(50, 50, 50, 0.59);
 }
 
 /*# sourceMappingURL=flowcorp.css.map */
