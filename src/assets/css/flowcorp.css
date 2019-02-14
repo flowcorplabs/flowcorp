@@ -1,0 +1,31 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+header {
+  background-image: linear-gradient(to bottom, #2c2c54, #706fd3);
+  height: 100vh;
+  padding-top: 8rem;
+}
+header .flow-top {
+  background-image: url(../img/flow-top.svg);
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+header i {
+  color: white;
+}
+header .pt-15 {
+  padding-top: 15rem;
+}
+
+/*# sourceMappingURL=flowcorp.css.map */

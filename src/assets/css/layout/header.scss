@@ -1,0 +1,22 @@
+header{
+    
+    background-image: linear-gradient(to bottom , #2c2c54, #706fd3); 
+    height: 100vh; 
+    padding-top: 8rem;
+
+    .flow-top{
+        background-image: url(../img/flow-top.svg);
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    i{
+        color: white;
+    }
+
+    .pt-15{
+        padding-top: 15rem;
+    }
+}
