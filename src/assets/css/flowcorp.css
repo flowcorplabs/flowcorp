@@ -6,7 +6,6 @@ html {
 
 body {
   font-family: "Exo", sans-serif;
-  font-weight: 700;
 }
 
 section {
@@ -33,6 +32,7 @@ section {
 .navbar .nav-link {
   color: #ffffff;
   text-transform: uppercase;
+  font-weight: 700;
 }
 .navbar .nav-link:hover {
   color: rgba(255, 255, 255, 0.75);
@@ -72,6 +72,21 @@ header i {
 }
 header .pt-15 {
   padding-top: 15rem;
+}
+
+.our-flow .text-flow {
+  color: #40407a;
+  font-family: exo;
+  font-weight: bold;
+  font-size: 2em;
+}
+.our-flow p {
+  font-size: 1.3em;
+  line-height: 1.75rem;
+  margin-bottom: 2rem;
+}
+.our-flow .image-logo {
+  width: 15%;
 }
 
 .flowteam h1 {
