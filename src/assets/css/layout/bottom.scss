@@ -1,0 +1,20 @@
+.bottom{
+    background-image: linear-gradient(to top, #40407a, #706fd3);
+    height: 100vh;
+
+    .bottom-img{
+        width: 100%;
+        margin-top: -20rem;
+    }
+
+    .flow-bottom{
+        height: 126%;
+        margin-top: -20rem;
+        background: {
+            image: url('../img/flow-bottom.svg');
+            repeat: no-repeat;
+            size: cover;
+            position: initial;
+        }
+    }
+}
