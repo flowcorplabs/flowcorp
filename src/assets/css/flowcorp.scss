@@ -1,7 +1,10 @@
 // Helpers
 @import 'helpers/variables';
+@import 'helpers/mixins';
 
 // Layout
 @import 'layout/body';
-@import 'layout/header.scss';
-@import 'layout/our-flow.scss';
+@import 'layout/navbar';
+@import 'layout/header';
+@import 'layout/our-flow';
+@import 'layout/flowteam';
