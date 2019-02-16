@@ -15,3 +15,16 @@ section {
         bottom: 3rem;
     }
 }
+
+.text-flow {
+    color: $normalColor;
+    font: {
+        family: $font;
+        weight: 700;
+        size: 2.5em;
+    }
+    text: {
+        align: center;
+        transform: uppercase;
+    }
+}

@@ -13,6 +13,15 @@ section {
   padding-bottom: 3rem;
 }
 
+.text-flow {
+  color: #40407a;
+  font-family: "Exo";
+  font-weight: 700;
+  font-size: 2.5em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
 .navbar {
   -webkit-transition: all 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
   -moz-transition: all 600ms cubic-bezier(0.25, 0.1, 0.25, 1);
@@ -74,12 +83,6 @@ header .pt-15 {
   padding-top: 15rem;
 }
 
-.our-flow .text-flow {
-  color: #40407a;
-  font-family: exo;
-  font-weight: bold;
-  font-size: 2em;
-}
 .our-flow p {
   font-size: 1.3em;
   line-height: 1.75rem;
@@ -89,11 +92,6 @@ header .pt-15 {
   width: 15%;
 }
 
-.flowteam h1 {
-  text-transform: uppercase;
-  color: #40407a;
-  font-weight: 700;
-}
 .flowteam img {
   border-radius: 50%;
   padding-top: 1rem;
@@ -130,20 +128,17 @@ header .pt-15 {
 }
 
 .bottom {
-  background-image: linear-gradient(to top, #40407a, #706fd3);
-  height: 100vh;
+  background-image: linear-gradient(to top, #2c2c54, #706fd3);
+  padding: 0;
 }
-.bottom .bottom-img {
+.bottom .text-flow {
+  margin-top: 3rem;
+  color: #ffffff;
+  font-size: 3em;
+  letter-spacing: 0.25rem;
+}
+.bottom img {
   width: 100%;
-  margin-top: -20rem;
-}
-.bottom .flow-bottom {
-  height: 126%;
-  margin-top: -20rem;
-  background-image: url("../img/flow-bottom.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: initial;
 }
 
 /*# sourceMappingURL=flowcorp.css.map */
