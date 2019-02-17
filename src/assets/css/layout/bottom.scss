@@ -1,15 +1,5 @@
 .bottom {
-    background-image: linear-gradient(to top, $darkColor, $lightColor);
-    padding: 0;
-
-    .text-flow {
-        margin-top: 3rem;
-        color: #ffffff;
-        font-size: 3em;
-        letter-spacing: .25rem;
-    }
-
-    img {
-        width: 100%;
-    }
+    
+    padding-top: 1rem;
+    text-align: center;
 }
