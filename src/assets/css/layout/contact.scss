@@ -6,11 +6,10 @@
     .text-flow {
         margin-top: 3rem;
         color: #ffffff;
-        font-size: 3em;
-        letter-spacing: .25rem;
-    }
-
-    img {
-        width: 100%;
+        
+        @media #{$lg} {
+            letter-spacing: .25rem;
+            font-size: 3em;
+        }
     }
 }
