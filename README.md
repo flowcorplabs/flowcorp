@@ -1,7 +1,5 @@
 ![Flowcorp](/src/assets/img/flowcorp.png)
 
-# flowcorp
-
 ## Instalando dependências
 
 ```bash
