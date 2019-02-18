@@ -1,0 +1,15 @@
+.contact {
+    
+    background-image: linear-gradient(to top, $darkColor, $lightColor);
+    padding: 0;
+
+    .text-flow {
+        margin-top: 3rem;
+        color: #ffffff;
+        
+        @media #{$lg} {
+            letter-spacing: .25rem;
+            font-size: 3em;
+        }
+    }
+}

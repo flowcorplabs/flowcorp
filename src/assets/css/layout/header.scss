@@ -1,24 +1,14 @@
 header {
 
     background-image: linear-gradient(to bottom, $darkColor, $lightColor);
-    height: 100vh;
     padding-top: 8rem;
 
-    .flow-top {
-        height: 100%;
-        background: {
-            image: url('../img/flow-top.svg');
-            repeat: no-repeat;
-            size: cover;
-            position: center;
+    .header-img {
+        padding: 10rem 0;
+        text-align: center;
+
+        img {
+            width: 80%;
         }
-    }
-
-    i {
-        color: white;
-    }
-
-    .pt-15 {
-        padding-top: 15rem;
     }
 }

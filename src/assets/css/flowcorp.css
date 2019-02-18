@@ -9,8 +9,27 @@ body {
 }
 
 section {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 8rem;
+}
+
+.text-flow {
+  color: #40407a;
+  font-family: "Exo";
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 992px) {
+  .text-flow {
+    font-size: 2.5em;
+  }
+}
+
+.flow-wave {
+  max-width: 100%;
+  height: auto;
+  width: 100%;
 }
 
 .navbar {
@@ -57,28 +76,18 @@ section {
 
 header {
   background-image: linear-gradient(to bottom, #2c2c54, #706fd3);
-  height: 100vh;
   padding-top: 8rem;
 }
-header .flow-top {
-  height: 100%;
-  background-image: url("../img/flow-top.svg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+header .header-img {
+  padding: 10rem 0;
+  text-align: center;
 }
-header i {
-  color: white;
-}
-header .pt-15 {
-  padding-top: 15rem;
+header .header-img img {
+  width: 80%;
 }
 
-.our-flow .text-flow {
-  color: #40407a;
-  font-family: exo;
-  font-weight: bold;
-  font-size: 2em;
+.our-flow {
+  padding-top: 0;
 }
 .our-flow p {
   font-size: 1.3em;
@@ -89,10 +98,8 @@ header .pt-15 {
   width: 15%;
 }
 
-.flowteam h1 {
-  text-transform: uppercase;
-  color: #40407a;
-  font-weight: 700;
+.flowteam {
+  padding-bottom: 0;
 }
 .flowteam img {
   border-radius: 50%;
@@ -112,6 +119,13 @@ header .pt-15 {
   border: none;
   margin-bottom: 3rem;
 }
+@media screen and (min-width: 1200px) {
+  .flowteam .card {
+    width: 20rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 .flowteam .card .card-title {
   margin-top: 1rem;
 }
@@ -127,6 +141,29 @@ header .pt-15 {
   -webkit-box-shadow: 6px 5px 13px 2px rgba(50, 50, 50, 0.59);
   -moz-box-shadow: 6px 5px 13px 2px rgba(50, 50, 50, 0.59);
   box-shadow: 6px 5px 13px 2px rgba(50, 50, 50, 0.59);
+}
+
+.contact {
+  background-image: linear-gradient(to top, #2c2c54, #706fd3);
+  padding: 0;
+}
+.contact .text-flow {
+  margin-top: 3rem;
+  color: #ffffff;
+}
+@media screen and (min-width: 992px) {
+  .contact .text-flow {
+    letter-spacing: 0.25rem;
+    font-size: 3em;
+  }
+}
+
+footer {
+  padding-top: 1rem;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+footer .text {
+  text-align: center;
 }
 
 /*# sourceMappingURL=flowcorp.css.map */
