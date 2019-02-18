@@ -3,11 +3,8 @@ $(() => {
     
     const navbarCollapse = () => {
         if ($(window).width() > 768) {
-            if ($('#flowNav').offset().top > 300) {
-                $('#flowNav').addClass('navbar-flow');
-            } else {
-                $('#flowNav').removeClass('navbar-flow');
-            }
+            const nav = $('#flowNav');
+            nav.toggleClass('navbar-flow', nav.offset().top > 300);
         }
     }
 

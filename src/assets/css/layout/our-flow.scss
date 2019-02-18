@@ -9,6 +9,10 @@
     }
 
     .image-logo {
-        width: 15%;
+        @media #{$md} {
+            width: 15%;
+        }
+
+        width: 45%;
     }
 }

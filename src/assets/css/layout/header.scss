@@ -4,8 +4,12 @@ header {
     padding-top: 8rem;
 
     .header-img {
-        padding: 10rem 0;
+        padding: 5rem 0;
         text-align: center;
+
+        @media #{$lg} {
+            padding: 10rem 0;
+        }
 
         img {
             width: 80%;

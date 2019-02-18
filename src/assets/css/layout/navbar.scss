@@ -1,9 +1,18 @@
 .navbar {
 
+    background-color: #ffffff;
+
+    @media #{$lg} {
+        background-color: transparent;
+    }
+
     @include transition;
 
     .navbar-brand {
-        display: none;
+
+        @media #{$lg} {
+            display: none;
+        }
 
         img {
             width: 75%;
@@ -16,13 +25,22 @@
     }
 
     .nav-link {
-        color: #ffffff;
+        color: $normalColor;
+        
         text-transform: uppercase;
         font-weight: 700;
+        
+        @media #{$lg} {
+            color: #ffffff;
 
-        &:hover {
-            color: rgba($color: #ffffff, $alpha: .75);
+            &:hover {
+                color: rgba($color: #ffffff, $alpha: .75);
+            }
         }
+    }
+
+    i {
+        color: $normalColor;
     }
 }
 
