@@ -1,0 +1,67 @@
+.navbar {
+
+    background-color: #ffffff;
+
+    @media #{$lg} {
+        background-color: transparent;
+    }
+
+    @include transition;
+
+    .navbar-brand {
+
+        @media #{$lg} {
+            display: none;
+        }
+
+        img {
+            width: 75%;
+        }
+    }
+
+    .navbar-nav {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .nav-link {
+        color: $normalColor;
+        
+        text-transform: uppercase;
+        font-weight: 700;
+        
+        @media #{$lg} {
+            color: #ffffff;
+
+            &:hover {
+                color: rgba($color: #ffffff, $alpha: .75);
+            }
+        }
+    }
+
+    i {
+        color: $normalColor;
+    }
+}
+
+.navbar-flow {
+
+    background-color: #ffffff;
+
+    .navbar-brand {
+        display: block;
+    }
+
+    .navbar-nav {
+        margin-left: auto;
+        margin-right: 0;
+    }
+
+    .nav-link {
+        color: $normalColor;
+
+        &:hover {
+            color: rgba($normalColor, $alpha: .75);
+        }
+    }
+}
