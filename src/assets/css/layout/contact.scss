@@ -12,10 +12,24 @@
 			font-weight: 500;
 			margin: 0 .5rem;
 
-			@include transition;
+			@media #{$lg} {
+				@include transition;
+				
+				&:hover {
+					color: transparent;
+				}
+			}
+		}
 
-			&:hover {
-				color: transparent;
+		.fa-size {
+			font-size: 2em;
+			
+			@media #{$sm} {
+				font-size: 3em;
+			}
+
+			@media #{$lg} {
+				font-size: 5em;
 			}
 		}
 
@@ -23,8 +37,10 @@
 			color: $normalColor;
 			font-size: 1.2em;
 
-			&:hover {
-				color: #ffffff;
+			@media #{$lg} {
+				&:hover {
+					color: #ffffff;
+				}
 			}
 		}
 	}
