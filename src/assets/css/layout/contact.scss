@@ -1,15 +1,41 @@
 .contact {
-    
-    background-image: linear-gradient(to top, $darkColor, $lightColor);
-    padding: 0;
 
-    .text-flow {
-        margin-top: 3rem;
-        color: #ffffff;
-        
-        @media #{$lg} {
-            letter-spacing: .25rem;
-            font-size: 3em;
-        }
-    }
+	background-image: linear-gradient(to top, $darkColor, $lightColor);
+	padding: 0;
+
+	.social {
+		margin: 2rem 0;
+
+		a {
+			color: #ffffff;
+			display: inline-block;
+			font-weight: 500;
+			margin: 0 .5rem;
+
+			@include transition;
+
+			&:hover {
+				color: transparent;
+			}
+		}
+
+		.icon {
+			color: $normalColor;
+			font-size: 1.2em;
+
+			&:hover {
+				color: #ffffff;
+			}
+		}
+	}
+
+	.text-flow {
+		margin-top: 3rem;
+		color: #ffffff;
+
+		@media #{$lg} {
+			letter-spacing: .25rem;
+			font-size: 3em;
+		}
+	}
 }
